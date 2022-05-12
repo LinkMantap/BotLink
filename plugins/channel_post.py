@@ -52,7 +52,7 @@ async def channel_post(client: Client, message: Message):
     )
 
     await reply_text.edit(
-        f"<b>Linknya Udah Jadi Guyss :</b>\n\n{link}",
+        f"<b>Linknya Udah Jadi Guys :</b>\n\n{link}",
         reply_markup=reply_markup,
         disable_web_page_preview=True,
     )
