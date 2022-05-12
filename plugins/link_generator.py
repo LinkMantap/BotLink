@@ -57,13 +57,13 @@ async def batch(client: Client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "🔁 Share Link", url=f"https://telegram.me/share/url?url={link}"
+                    "⊛𝚂𝚎𝚋𝚊𝚛 𝙻𝚒𝚗𝚔⊛", url=f"https://telegram.me/share/url?url={link}"
                 )
             ]
         ]
     )
     await second_message.reply_text(
-        f"<b>Link Sharing File Berhasil Di Buat:</b>\n\n{link}",
+        f"<b>Link File Berhasil Di Buat:</b>\n\n{link}",
         quote=True,
         reply_markup=reply_markup,
     )
@@ -96,13 +96,13 @@ async def link_generator(client: Client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "🔁 Share Link", url=f"https://telegram.me/share/url?url={link}"
+                    "⊛𝚂𝚎𝚋𝚊𝚛 𝙻𝚒𝚗𝚔⊛", url=f"https://telegram.me/share/url?url={link}"
                 )
             ]
         ]
     )
     await channel_message.reply_text(
-        f"<b>Link Sharing File Berhasil Di Buat:</b>\n\n{link}",
+        f"<b>Link File Berhasil Di Buat:</b>\n\n{link}",
         quote=True,
         reply_markup=reply_markup,
     )
