@@ -1,6 +1,7 @@
 # (©)Codexbotz
 # Recode by @mrismanaziz
 # t.me/SharingUserbot & t.me/Lunatic0de
+# Hasil NgeFork
 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
@@ -63,7 +64,7 @@ async def batch(client: Client, message: Message):
         ]
     )
     await second_message.reply_text(
-        f"<b>Link File Berhasil Di Buat:</b>\n\n{link}",
+        f"<b>Linknya Udah Jadi Guys:</b>\n\n{link}",
         quote=True,
         reply_markup=reply_markup,
     )
@@ -102,7 +103,7 @@ async def link_generator(client: Client, message: Message):
         ]
     )
     await channel_message.reply_text(
-        f"<b>Link File Berhasil Di Buat:</b>\n\n{link}",
+        f"<b>Linknya Udah Jadi Guys:</b>\n\n{link}",
         quote=True,
         reply_markup=reply_markup,
     )
