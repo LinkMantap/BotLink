@@ -7,6 +7,7 @@ Saya Kira Ini Akan Bermanfaat Bagi Banyak Orang.. 😇.
 
 **Jika Anda memerlukan tambahan module lagi dalam repo atau Jika Anda menemukan bug, silahkan report di group [@SharingUserbot](https://www.telegram.dog/SharingUserbot)**
 
+### Kalo ada masalah dengan menggunakan jasa deploy saya bisa pc lngsng aja @parreljelek
 ### Features
 - Sepenuhnya dapat dicustom.
 - Dapat di-deploy di heroku & vps.
